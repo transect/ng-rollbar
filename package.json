@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      "ng-rollbar@git+https://github.com/coltonbrugger/ng-rollbar.git#master",
+      "/Users/matthewcarter/workspace/transect"
+    ]
+  ],
+  "_from": "ng-rollbar@https://github.com/coltonbrugger/ng-rollbar#master",
+  "_id": "ng-rollbar@git+ssh://git@github.com/coltonbrugger/ng-rollbar.git#a5081a9d08c80f03860f6fa9d911ec0e01a4105a",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ng-rollbar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "ng-rollbar@https://github.com/coltonbrugger/ng-rollbar#master",
+    "name": "ng-rollbar",
+    "escapedName": "ng-rollbar",
+    "rawSpec": "https://github.com/coltonbrugger/ng-rollbar#master",
+    "saveSpec": "git+https://github.com/coltonbrugger/ng-rollbar.git#master",
+    "fetchSpec": "https://github.com/coltonbrugger/ng-rollbar.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/coltonbrugger/ng-rollbar.git#a5081a9d08c80f03860f6fa9d911ec0e01a4105a",
+  "_spec": "https://github.com/coltonbrugger/ng-rollbar#master",
+  "_where": "/Users/matthewcarter/workspace/transect",
+  "author": {
+    "name": "Andreas Bade"
+  },
+  "bugs": {
+    "url": "https://github.com/tandibar/ng-rollbar/issues"
+  },
+  "description": "Rollbar integration for angular",
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5",
+    "byline": "^4.2.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-git": "^0.3.4",
+    "grunt-ng-annotate": "^0.10.0",
+    "grunt-release": "^0.13.0",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "lodash": "^3.3.1",
+    "phantomjs-prebuilt": "^2.1.7"
+  },
+  "homepage": "https://github.com/tandibar/ng-rollbar",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ng-rollbar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tandibar/ng-rollbar.git"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start --single-run"
+  },
+  "version": "2.5.1"
+}
